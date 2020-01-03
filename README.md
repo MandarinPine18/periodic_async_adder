@@ -1,7 +1,7 @@
 # Periodic Asynchronous Addition Program
 
 ## Description
-This is similar to my previous asynchronous adder (link: https://github.com/ethanparab/async_adder). This one, however, contains some small differences. The addition task now prints to the worker as well as returning the sum. There is a new print message task as well which prints a message at the worker. Both have corresponding scripts. Finally, there is a scheduler included which schedules the adder to run every two seconds and the printer to run every five seconds. It runs on Python 3.7.
+This is similar to my previous asynchronous adder (https://github.com/ethanparab/async_adder). This one, however, contains some small differences. The addition task now prints to the worker as well as returning the sum. There is a new print message task as well which prints a message at the worker. Both have corresponding scripts. Finally, there is a scheduler included which schedules the adder to run every two seconds and the printer to run every five seconds. It runs on Python 3.7.
 
 ## Installation
 IMPORTANT: This installation assumes Python 3.7 and pip are already installed.
@@ -64,7 +64,7 @@ Minimize both windows. In a third, final terminal window, enter the same directo
 There are several options now. Follow only the track applicable to your intention.
 
 ### 1. Run the scheduler
-The scheduler is something included which runs the adder every two seconds and the printer every five seconds. The adder adds 16 and 16 only and the message is DjangoPy. To watch it in action from the worker perspective, look at the asciinema recording (link: https://asciinema.org/a/tnhbzv4wSvRhrKMf9ehnTcksr).
+The scheduler is something included which runs the adder every two seconds and the printer every five seconds. The adder adds 16 and 16 only and the message is DjangoPy. To watch it in action from the worker perspective, look at the asciinema recording (https://asciinema.org/a/tnhbzv4wSvRhrKMf9ehnTcksr).
 ```sh
   # celery -A periodic_async_adder beat
 ```
@@ -90,7 +90,7 @@ To print, set "result" to "print_msg.delay(msg)". Substitute the desired message
 
 
 ## Credits
-In this repository, code from the makers of Python, Redis, Django, Django Extensions, and Celery were used. In addition, much of this was derived from a blog from Adam McQuistan (link: https://stackabuse.com/asynchronous-tasks-in-django-with-redis-and-celery/) and a blog from Jai Singhal (link: https://djangopy.org/how-to/handle-asynchronous-tasks-with-celery-and-django#periodic-tasks).
+In this repository, code from the makers of Python, Redis, Django, Django Extensions, and Celery were used. In addition, much of this was derived from a blog from Adam McQuistan (https://stackabuse.com/asynchronous-tasks-in-django-with-redis-and-celery/) and a blog from Jai Singhal (https://djangopy.org/how-to/handle-asynchronous-tasks-with-celery-and-django#periodic-tasks).
 
 ## License
 This project is licensed under GNU AGPL v3, included in the file titled LICENSE.
