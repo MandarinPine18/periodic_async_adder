@@ -93,4 +93,4 @@ To print, set "result" to "print_msg.delay(msg)". Substitute the desired message
 In this repository, code from the makers of Python, Redis, Django, Django Extensions, and Celery were used. In addition, much of this was derived from a blog from Adam McQuistan (link: https://stackabuse.com/asynchronous-tasks-in-django-with-redis-and-celery/) and a blog from Jai Singhal (link: https://djangopy.org/how-to/handle-asynchronous-tasks-with-celery-and-django#periodic-tasks).
 
 ## License
-This project is licensed under AGPL v3, included in the file titled LICENSE.
+This project is licensed under GNU AGPL v3, included in the file titled LICENSE.
